@@ -34,44 +34,63 @@
 
     <div class="tenis-container">
 
-        <div class="rectangle">
+        <div class="rectangle cima">
             <img src="/img/1.png" alt="Tênis"> 
         </div>
         
-        <div class="rectangle">
+        <div class="rectangle cima">
             <img src="/img/2.png" alt="Tênis">
         </div>
         
-        <div class="rectangle">
+        <div class="rectangle cima">
             <img src="/img/3.png" alt="Tênis">
         </div>
         
 
-        <div class="rectangle">
+        <div class="rectangle cima">
             <img src="/img/4.png" alt="Tênis">
         </div>
         
 
-        <div class="rectangle">
+        <div class="rectangle baixo">
             <img src="/img/5.png" alt="Tênis">
         </div>
         
 
-        <div class="rectangle">
+        <div class="rectangle baixo">
             <img src="/img/6.png" alt="Tênis">
         </div>
         
 
-        <div class="rectangle">
+        <div class="rectangle baixo">
             <img src="/img/7.png" alt="Tênis">
         </div>
         
 
-        <div class="rectangle">
+        <div class="rectangle baixo">
             <img src="/img/8.png" alt="Tênis">
         </div>
         
     </div>
     <p id="botton">Todos os direitos reservados.</p>
 </body>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script>
+            const sr = ScrollReveal({
+                origin: 'top',
+                distance: '50px',
+                duration: 2000,
+                reset: true
+            });
+    
+            ScrollReveal().reveal('#top', { delay: 200 });
+            ScrollReveal().reveal('#botton', { delay: 200 });
+            ScrollReveal().reveal('#big-text-wallpaper', { delay: 400 });
+            ScrollReveal().reveal('#min-text-wallpaper', { delay: 400 });
+            ScrollReveal().reveal('#title-main', { delay: 500 });
+            ScrollReveal().reveal('.text', { delay: 400 });
+            ScrollReveal().reveal('.cima', { delay: 500 });
+            ScrollReveal().reveal('.baixo', { delay: 600 });
+    </script>
 </html>

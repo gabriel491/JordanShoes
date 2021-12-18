@@ -33,12 +33,11 @@
 }
 
 .bgc-container {
-    background: url(/img/wallpaper.jpeg) no-repeat;  
+    background: url(/img/wallpaper.jpeg) center center no-repeat;  
+    background-attachment: fixed;
     background-size: cover;
-    background-position: center center;
 
-    height: 378px;
-    width: 100%;
+    height: 60vh;
 }
 
 .bgc-container .container-text {
@@ -113,4 +112,9 @@ font-weight: 600; */
 .tenis-container .rectangle img {
     width: 250px;
     height: 150px;
+}
+
+.rectangle:hover img{
+    transform: scale(1.3);
+    transition: 1s all ease;
 }
