@@ -33,7 +33,7 @@
 }
 
 .bgc-container {
-    background: url(/img/wallpaper.jpeg) center center no-repeat;  
+    background: url(./img/wallpaper.jpeg) center center no-repeat;  
     background-attachment: fixed;
     background-size: cover;
 
